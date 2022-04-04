@@ -11,6 +11,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
 }
 
@@ -18,8 +19,12 @@ header{
 
 }
 
+.collapse ul h2{
+    font-size: 12pt;
+}
+
     .box-header{
-        width: 50%;;
+        width: 30%;;
         height: 60px;
         float: left;
         background: rgba(255, 255, 255, 0.1);
@@ -29,12 +34,59 @@ header{
 
     }
 
+    .img-logo{
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+    }
+
 .collapse{
     /* border: 2px solid red; */
 }
 
+.dropdown-toggle1::after {
+    margin-left: 3.955em;
+    /* vertical-align: 0.755em; */
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+
+
+#main-header h2{
+    font-size: 13pt;
+}
+
+/* .nav-link h2:hover{
+    backdrop-filter: blur(4px);
+    height: 30px;
+    width: 100px;
+} */
+
+a:link{
+    color: white;
+}
+
+a:link:hover{
+    color:#6eade8;
+}
+
+.dropdown-menu.show{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+
+}
+
 .collapse ul{
     margin-left: 10px;
+    
+}
+
+.collapse li{
+    margin-left: 15px;
 }
 
 #main-section{
@@ -42,12 +94,20 @@ header{
 }
 
 #box-section{
-    background-image:url("./img/2.png");
+    background-image:url("./img/3.png");
     width: 300px;
     height: 300px;
     /* border: 2px solid red; */
+    position: relative;
+    top: 200px;
+    /* margin-top: 300px; */
+    /* background: rgba(255, 255, 255, 0.1); */
+    backdrop-filter: blur(6px);
+    border-radius: 13px;
 
 }
+
+
 
     /* #main:before{
         background-image: url("./img/banner01.jpg");
