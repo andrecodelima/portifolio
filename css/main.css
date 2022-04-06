@@ -14,9 +14,9 @@ main{
 }
 
 
-.navbar-brand img{
-    width: 100px;
-    height: 100px;
+.navbar-brand .img-logo{
+    width: 130px;
+    height: 120px;
     box-shadow: 1px 5px 9px;
     color: black;
 }
@@ -33,16 +33,20 @@ h2{
     font-weight: 800;
 }
 
-.navbar-nav h2:hover{
-    color: #949498;
-}
 
 a.nav-link{
     color:rgb(0, 0, 0);
 }
 
+.navbar-nav h2:hover{
+    /* color: #949498; */
+    color:#6eade8;
+
+}
 a.nav-link:hover{
-    color:#949498;
+    /* color:#949498; */
+    color:#6eade8;
+
 }
 
 /* HEADER */
@@ -57,12 +61,14 @@ a.nav-link:hover{
 
 }
 
-.collapse{
-    border: 1px solid rgb(4, 0, 255);
+#navbarNavDropdown1{
+    border: 1px solid rgb(255, 0, 98);
+    margin: auto;
+    
 }
 
 .navbar-nav{
-    border: 1px solid rgb(4, 0, 255);
+    border: 1px solid rgb(0, 255, 191);
     margin-left: 3%;
 }
 .nav-link a{
